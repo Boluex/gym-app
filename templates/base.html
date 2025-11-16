@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/normalise.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+   
+    <title>{{ title }}</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <nav>
+            <a href="/"> <img class="logo" src="/static/images/gymlogo.png" alt="Logo"></a>
+            <!-- <a href="/" ><h2>GYM MANAGEMENT</h2>> -->
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/members">Members</a></li>
+                <li><a href="/fitness_classes">Classes</a></li>
+                <li><a href="/bookings">Bookings</a></li>
+            </ul> 
+        </nav>
+        <div class="main_content">
+            <div class="header"><h2>{{ current_page }}</h1></div>  
+            <div class="content">
+              {% block content %}
+                  
+              {% endblock content %}
+          </div>
+        </div>
+    </div>
+    
+    </body>
+    </html>

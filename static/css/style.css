@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  body{
+     background-color: 
+  }
+  
+  .wrapper{
+    display: flex;
+    position: relative;
+  }
+  
+  .wrapper nav{
+    background: #2e2e31;
+    position: fixed;
+    height: 100%;
+    width: 200px;
+    padding: 20px 0px;
+  }
+  .wrapper nav a{
+    text-decoration: none;
+  }
+  
+  .wrapper nav h2{
+    margin-bottom: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  .wrapper nav ul{
+    list-style: none;
+  }
+  .wrapper nav ul li{
+    padding: 15px;
+    border-bottom: 1px solid #bdb8d7;
+    border-bottom: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(255,255,255,0.05);
+    list-style: none;
+  }    
+  
+  .wrapper nav ul li a{
+    color: #aca8c5;
+    display: block;
+    text-decoration: none;
+  }
+  
+  .wrapper nav ul li a .fas{
+    width: 25px;
+  }
+  
+  .wrapper nav ul li:hover{
+    background-color: #064e3f;
+  }
+
+  
+      
+  .wrapper nav ul li:hover a{
+    color: white;
+  }
+   
+  
+
+  
+  .wrapper .main_content{
+    width: 100%;
+    margin-left: 200px;
+  }
+  
+  .wrapper .main_content .header{
+    padding: 20px;
+    background: #fff;
+    color: #717171;
+    border-bottom: thin solid #e0e4e8;
+  }
+  
+  .wrapper .main_content .content{
+    margin: 20px;
+    color: #717171;
+    line-height: 25px;
+  }
+  
+  .wrapper .main_content .content div{
+    margin-bottom: 20px;
+  }
+
+  .add_member_logo > a > img {
+      height: 50px;
+      width: 50px;
+  
+  }
+
+.table-info{
+    border-collapse: collapse;
+    margin: 25px 0px;
+    font-size: 0.9em;
+    width: 90%;
+    box-shadow: 0 0 20px rgba(26, 25, 25, 0.15);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.table-info td, .table-info, th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+
+.table-info tr:nth-child(even){background-color: #f2f2f2;}
+
+.table-info tr:hover {background-color: #ddd;}
+
+.table-info th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #06745e;
+  color: white;
+  
+}
+.table-info tr{
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+.add_class_logo > a >img{
+    height: 50px;
+    width: 50px;
+    
+}
+
+
+.flex-grid {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 600px;
+  flex-direction: row;
+
+}
+
+.flex-grid > div {
+  display: flex;
+  flex-basis: calc(50% - 40px);
+  justify-content: center;
+  flex-direction: column;
+}
+.flex-grid > div > div {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.box {
+  margin:20px;
+  text-align: center;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  
+}
+
+
+
+.adbookings_logo > img{
+  height: 50px;
+  width: 50px;
+  
+}
+
+
+.add-form {
+  text-align: center;
+  background-color: #f3f3f3;
+  border-collapse: collapse;
+  margin: 25px 0px; 
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+
+button {
+  background-color: #316d33;
+  color: white;
+  padding: 5px 5px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+.button-delete {
+  background-color: rgb(206, 15, 15)
+}
+
+
+
+.edit-link:link, .edit-link:visited{
+  background-color: #4999b1;
+  color: white;
+  padding: 6px 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+
+
+
+
+.edit-link:hover, .edit-link:active {
+   cursor: default;
+}
+
+.logo{
+  height: 100px;
+  width: 100px;
+  margin-left: 40px;
+  margin-top: 0px;
+}
