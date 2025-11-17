@@ -1,3 +1,4 @@
 # Psycopg2
 Flask
 psycopg2-binary
+prometheus_flask_exporter
